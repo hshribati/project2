@@ -9,23 +9,11 @@
 body {
     line-height: 1.6;
     font-family: 'Arial', sans-serif; /* Browser native font */
+    background-image: url('images/blue.png'); /* Background for all pages */
     background-size: cover;
     background-position: center;
     padding: 2rem; /* Using rem for fluidity */
     color: #333; /* Dark text color for better readability */
-}
-
-/* Specific Backgrounds for Each Page */
-body.resume {
-    background-image: url('images/blue.png'); /* Background for Resume */
-}
-
-body.tarek {
-    background-image: url('images/bar.png'); /* Background for Tarek page */
-}
-
-body.falafel {
-    background-image: url('images/food.png'); /* Background for Falafel page */
 }
 
 /* Navigation Styles */
@@ -90,12 +78,4 @@ ul {
     body {
         padding: 1rem; /* Less padding on smaller screens */
     }
-}
-
-/* Optional: Add padding and margin for sections */
-section {
-    padding: 20px;
-    margin: 10px;
-    background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
-    border-radius: 8px; /* Rounded corners for sections */
 }
