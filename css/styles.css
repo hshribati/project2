@@ -90,11 +90,5 @@ ul {
     body {
         padding: 1rem; /* Less padding on smaller screens */
     }
-}
-body.tarek {
-    background-color: lightblue; /* Temporary background color for testing */
-    background-image: url('../images/bar.png');
-    background-size: cover;
-    background-position: center;
-}
+
 
