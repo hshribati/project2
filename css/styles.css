@@ -9,9 +9,7 @@
 body {
     line-height: 1.6;
     font-family: 'Arial', sans-serif; /* Browser native font */
-    background-image: url('images/blue.png'); /* Background for all pages */
-    background-size: cover;
-    background-position: center;
+    background-color: #e0f7fa; /* Light blue background color for all pages */
     padding: 2rem; /* Using rem for fluidity */
     color: #333; /* Dark text color for better readability */
 }
