@@ -85,7 +85,6 @@ ul {
     margin-left: 2rem;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     body {
         padding: 1rem;
