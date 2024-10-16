@@ -6,105 +6,101 @@
     box-sizing: border-box;
 }
 
-/* Global Styles */
+
 body {
     line-height: 1.6;
-    font-family: 'Arial', sans-serif; /* Browser native font */
-    background-color: #e0f7fa; /* Light blue background color for all pages */
-    padding: 2rem; /* Using rem for fluidity */
-    color: #333; /* Dark text color for better readability */
+    font-family: 'Arial', sans-serif; 
+    background-color: #e0f7fa; 
+    padding: 2rem; 
+    color: #333;
 }
 
-/* Navigation Styles */
+
 nav {
-    background-color: rgba(0, 123, 255, 0.9); /* Slightly more opaque for better contrast */
+    background-color: rgba(0, 123, 255, 0.9); 
     padding: 1rem;
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-}
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 
 nav ul {
     list-style: none;
-    display: flex; /* Centered horizontal navigation */
-    justify-content: center; /* Center the nav items */
+    display: flex; 
+    justify-content: center; 
 }
 
 nav ul li {
-    margin: 0 1.5rem; /* Increased margin for better spacing */
+    margin: 0 1.5rem; 
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold; /* Bold text for emphasis */
-    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
-}
+    font-weight: bold; 
+    transition: color 0.3s ease, transform 0.3s ease; 
 
 nav ul li a:hover {
-    color: #ffcc00; /* Gold color on hover */
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    color: #ffcc00; 
+    transform: scale(1.1); 
 }
 
-/* Header Styles */
 header {
     text-align: center;
     margin-bottom: 2rem;
 }
 
 h1 {
-    font-size: 3rem; /* Responsive heading */
-    color: #0066cc; /* A distinct color for headings */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-    text-align: center; /* Center the title */
-    margin-bottom: 2rem; /* Space below the heading */
+    font-size: 3rem; 
+    color: #0066cc; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+    text-align: center; 
+    margin-bottom: 2rem; 
 }
 
-/* Image and Content Styles */
+
 .image-content {
     display: flex;
-    align-items: center; /* Vertically center the items */
-    justify-content: center; /* Horizontally center the items */
+    align-items: center; 
+    justify-content: center; 
     margin-bottom: 2rem;
 }
 
 .center-image {
-    width: 300px; /* Set a fixed width for the image */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between image and text */
+    width: 300px; 
+    height: auto; 
+    margin-right: 20px; 
 }
 
 .text-content {
-    max-width: 600px; /* Limit the width of the text */
+    max-width: 600px; 
 }
 
-/* Section Styles */
+
 section {
     margin-bottom: 2rem;
-    background-color: rgba(255, 255, 255, 0.8); /* White background with opacity for contrast */
-    padding: 1.5rem; /* Padding for better spacing */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
-}
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 1.5rem; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 
-/* List Styles */
+
 ul {
     list-style-type: disc;
-    margin-left: 2rem; /* Indent lists for clarity */
+    margin-left: 2rem; 
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
     body {
-        padding: 1rem; /* Less padding on smaller screens */
+        padding: 1rem; 
     }
 
     .image-content {
-        flex-direction: column; /* Stack image and text on smaller screens */
-        align-items: center; /* Center align items */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .center-image {
-        margin-right: 0; /* Remove right margin on small screens */
-        margin-bottom: 10px; /* Add bottom margin */
+        margin-right: 0; 
+        margin-bottom: 10px; 
     }
 }
